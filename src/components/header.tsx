@@ -3,11 +3,11 @@ import nlwUniteIcon from '../assets/nlw-unite-icon.svg'
 export function Header () {
 
   return (
-    <div>
+    <div className="flex items-center gap-5 py-2" >
       <img src={nlwUniteIcon} />
-      <nav>
-        <a href="">Events</a>
-        <a href="">Attendees</a>
+      <nav className="flex items-center gap-5">
+        <a href="" className="font-medium text-sm text-zinc-300">Events</a>
+        <a href="" className="font-medium text-sm">Attendees</a>
       </nav>
     </div>
   )
